@@ -27,7 +27,8 @@ Pod::Spec.new do |s|
   #   'TMPointMallImages' => ['TMPointMall/Resource/image/*.png']
   # }  
 
-  s.dependency 'AFNetworking'
+  s.dependency 'TMSDK', '~> 0.0.2-beta.3'
+  s.dependency 'AFNetworking'
   s.dependency 'SDWebImage'
   s.dependency 'Masonry'
   s.dependency 'MJRefresh'
@@ -35,6 +36,5 @@ Pod::Spec.new do |s|
   s.dependency 'SGPagingView'
   s.dependency 'MJExtension'
   s.dependency 'UMengAnalytics-NO-IDFA'
-  s.dependency 'TMSDK'
 
 end
