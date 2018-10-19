@@ -34,6 +34,6 @@ Pod::Spec.new do |s|
   s.dependency'SVProgressHUD'
   s.dependency'SGPagingView'
   s.dependency'MJExtension'
-  s.dependency'UMengAnalytics-NO-IDFA'
+  # s.dependency'UMengAnalytics-NO-IDFA'
 
 end
