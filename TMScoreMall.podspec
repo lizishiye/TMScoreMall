@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = "TMScoreMall/Frameworks/LZTest.framework"
 
 
-  s.dependency'TMSDK', '~> 0.0.2-beta.3'
+  s.dependency'TMSDK'
   s.dependency'AFNetworking'
   s.dependency'SDWebImage'
   s.dependency'Masonry'
