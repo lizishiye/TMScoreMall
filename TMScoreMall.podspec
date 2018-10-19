@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = "TMScoreMall/Frameworks/LZTest.framework"
 
 
-  s.dependency'TMSDK'
+  # s.dependency'TMSDK'
   s.dependency'AFNetworking'
   s.dependency'SDWebImage'
   s.dependency'Masonry'
@@ -34,6 +34,6 @@ Pod::Spec.new do |s|
   s.dependency'SVProgressHUD'
   s.dependency'SGPagingView'
   s.dependency'MJExtension'
-  # s.dependency'UMengAnalytics-NO-IDFA'
+  s.dependency'UMengAnalytics-NO-IDFA'
 
 end
