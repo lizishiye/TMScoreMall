@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
   s.requires_arc = true
-  s.resources = "TMScoreMall/Resource/TMScoreMallXib.bundle"
+  s.resources = "TMScoreMall/Resource/*.{bundle}"
+
 
 end
