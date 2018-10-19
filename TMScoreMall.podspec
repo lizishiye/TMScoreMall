@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.license = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "lizishiye" => "1063357883@qq.com" }
   s.source = { :git => "https://github.com/lizishiye/TMScoreMall.git", :tag => "0.0.1"}
-  s.source_files  = "TMScoreMall/**/*"
+  s.source_files  = "Test/**/*"
   s.description      = <<-DESC
                        It is a marquee view used on iOS, which implement by Objective-C.
                        DESC
