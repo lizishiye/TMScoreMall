@@ -21,11 +21,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.ios.deployment_target = "9.0"
-  s.requires_arc = true
-  # s.resources = "TMScoreMall/Third/HJVideoPlayer/Resources/*.{bundle}"
-  # s.resource_bundles = {
-  #   'TMPointMallImages' => ['TMPointMall/Resource/image/*.png']
-  # }  
+  s.requires_arc = true 
 
   s.dependency 'TMSDK', '~> 0.0.2-beta.3'
   s.dependency 'AFNetworking'
