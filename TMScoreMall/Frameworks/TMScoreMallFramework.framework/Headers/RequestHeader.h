@@ -49,7 +49,8 @@
 #define Request_Get_ExchangeOrderInfo                QMBaseUrl(@"/api/getExchangeOrderInfo")
 
 /**  兑换-获取当前用户的积分总数  */
-#define Request_Get_GetPoint                                  QMBaseUrl2(@"/member/Memberpoint/getPoint")
+//#define Request_Get_GetPoint                                  QMBaseUrl2(@"/member/Memberpoint/getPoint")
+#define Request_Get_GetPoint                                  QMBaseUrl2(@"/member/memberpoint/getPoint2")
 
 
 #endif /* RequestHeader_h */
