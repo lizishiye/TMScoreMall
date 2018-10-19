@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.name         = "TMScoreMall"
   s.version      = "0.0.1"
-  s.summary      = "A short description of TMScoreMall."
+  s.summary      = "The TMScoreMall project."
   s.homepage     = "https://github.com/lizishiye/TMScoreMall.git"
   s.license = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "lizishiye" => "1063357883@qq.com" }
