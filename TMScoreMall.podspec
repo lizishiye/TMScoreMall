@@ -27,14 +27,14 @@ Pod::Spec.new do |s|
   #   'TMPointMallImages' => ['TMPointMall/Resource/image/*.png']
   # }  
 
-#   s.dependency 'AFNetworking'   #依赖关系，该项目所依赖的其他库，如果有多个需要填写多个s.dependency
-#   s.dependency 'SDWebImage'
-#   s.dependency 'Masonry'
-#   s.dependency 'MJRefresh'
-#   s.dependency 'SVProgressHUD'
-#   s.dependency 'SGPagingView'
-#   s.dependency 'MJExtension'
-#   s.dependency 'UMengAnalytics-NO-IDFA'
-#   s.dependency 'TMSDK'
+  s.dependency 'AFNetworking'   #依赖关系，该项目所依赖的其他库，如果有多个需要填写多个s.dependency
+  s.dependency 'SDWebImage'
+  s.dependency 'Masonry'
+  s.dependency 'MJRefresh'
+  s.dependency 'SVProgressHUD'
+  s.dependency 'SGPagingView'
+  s.dependency 'MJExtension'
+  s.dependency 'UMengAnalytics-NO-IDFA'
+  s.dependency 'TMSDK'
 
 end
