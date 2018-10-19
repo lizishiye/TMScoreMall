@@ -27,13 +27,13 @@ Pod::Spec.new do |s|
 
 
   # s.dependency'TMSDK'
-  s.dependency'AFNetworking'
-  s.dependency'SDWebImage'
-  s.dependency'Masonry'
-  s.dependency'MJRefresh'
-  s.dependency'SVProgressHUD'
-  s.dependency'SGPagingView'
-  s.dependency'MJExtension'
+  # s.dependency'AFNetworking'
+  # s.dependency'SDWebImage'
+  # s.dependency'Masonry'
+  # s.dependency'MJRefresh'
+  # s.dependency'SVProgressHUD'
+  # s.dependency'SGPagingView'
+  # s.dependency'MJExtension'
   # s.dependency'UMengAnalytics-NO-IDFA'
 
 end
