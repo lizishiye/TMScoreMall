@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomProcess">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KoQ-Lf-5aE">
+                    <rect key="frame" x="112.5" y="308.5" width="150" height="50"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lz_loading.png" translatesAutoresizingMaskIntoConstraints="NO" id="kNJ-Dl-uLo">
+                            <rect key="frame" x="35.5" y="15.5" width="19" height="19"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="加载中" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xzc-jA-zKX">
+                            <rect key="frame" x="69.5" y="16" width="46" height="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="kNJ-Dl-uLo" firstAttribute="centerY" secondItem="KoQ-Lf-5aE" secondAttribute="centerY" id="5mV-Rq-Zs0"/>
+                        <constraint firstAttribute="height" constant="50" id="SHZ-H0-46w"/>
+                        <constraint firstAttribute="width" constant="150" id="ijp-bu-dXp"/>
+                        <constraint firstItem="xzc-jA-zKX" firstAttribute="leading" secondItem="kNJ-Dl-uLo" secondAttribute="trailing" constant="15" id="iux-9Z-681"/>
+                        <constraint firstItem="kNJ-Dl-uLo" firstAttribute="centerX" secondItem="KoQ-Lf-5aE" secondAttribute="centerX" constant="-30" id="sie-IJ-flj"/>
+                        <constraint firstItem="xzc-jA-zKX" firstAttribute="centerY" secondItem="kNJ-Dl-uLo" secondAttribute="centerY" id="wiM-Sa-pPl"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="KoQ-Lf-5aE" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="EIu-fq-mvl"/>
+                <constraint firstItem="KoQ-Lf-5aE" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="jiu-iF-VBN"/>
+            </constraints>
+            <connections>
+                <outlet property="giftBgView" destination="KoQ-Lf-5aE" id="zsH-l3-NXY"/>
+                <outlet property="loadingImgView" destination="kNJ-Dl-uLo" id="6wQ-9l-xbt"/>
+                <outlet property="textLB" destination="xzc-jA-zKX" id="v3y-rG-8th"/>
+            </connections>
+            <point key="canvasLocation" x="-216.80000000000001" y="43.628185907046479"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="lz_loading.png" width="19" height="19"/>
+    </resources>
+</document>

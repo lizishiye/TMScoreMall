@@ -22,7 +22,20 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
   s.requires_arc = true
-  s.resources = "TMScoreMall/Resource/*.{bundle}"
-
+  s.resources = "TMScoreMall/Third/HJVideoPlayer/Resources/*.{bundle}"
+  s.resource_bundles = {
+    'TMPointMallImages' => ['TMPointMall/Resource/image/*.png']
+  }  
+  s.public_header_files = 'TMPointMall/Other/LZ_Header.h'   #公开头文件地址
+  
+  s.dependency 'AFNetworking'   #依赖关系，该项目所依赖的其他库，如果有多个需要填写多个s.dependency
+  s.dependency 'SDWebImage'
+  s.dependency 'Masonry'
+  s.dependency 'MJRefresh'
+  s.dependency 'SVProgressHUD'
+  s.dependency 'SGPagingView'
+  s.dependency 'MJExtension'
+  s.dependency 'UMengAnalytics-NO-IDFA'
+  s.dependency 'TMSDK'
 
 end
