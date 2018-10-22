@@ -27,8 +27,8 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true 
 
-  s.resource  = "TMScoreMall/Resource/TMPointMallImages.bundle"
-  s.vendored_frameworks = 'TMScoreMall2/TMScoreMall.framework'
+  s.resource  = "TMScoreMall2/Resource/TMPointMallImages.bundle"
+  s.vendored_frameworks = 'TMScoreMall.framework'
 
   # s.xcconfig = {
   #   'VALID_ARCHS' => 'arm64 x86_64'
