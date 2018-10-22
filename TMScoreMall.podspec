@@ -23,7 +23,9 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "This is a description"
+  s.description  = <<-DESC
+这就是一个测试，没别的，你信不信？
+                   DESC
 
   s.homepage     = "https://github.com/lizishiye/TMScoreMall.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -88,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "TMScoreMall/**/*"
+  # s.source_files  = "TMScoreMall/**/*"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -137,8 +139,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.requires_arc = true 
 
-  # s.subspec 'Framework' do |framework|
-  #   framework.vendored_frameworks = "TMScoreMall/Frameworks/TMScoreMallFramework.framework"
-  # end
+s.resource  = "TMScoreMall/Resource/FrameworkTestBundle.bundle"
+# s.resources = "Resources/*.png"
+s.ios.vendored_frameworks = 'TMScoreMall/Frameworks/FrameworkTest.framework'
 
 end
