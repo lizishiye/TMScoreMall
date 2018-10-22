@@ -7,8 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-
-  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+ # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  These will help people to find your library, and whilst it
   #  can feel like a chore to fill in it's definitely to your advantage. The
@@ -16,7 +15,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TMScoreMall"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "This is a summary"
 
   # This description is used to generate tags and improve search results.
