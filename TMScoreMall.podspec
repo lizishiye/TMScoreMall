@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "TMScoreMall/**/*"
-  s.exclude_files = "Classes/Exclude"
+  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -137,8 +137,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.requires_arc = true 
 
-  s.subspec 'Framework' do |framework|
-    framework.vendored_frameworks = "TMScoreMall/Frameworks/TMScoreMallFramework.framework"
-  end
+  # s.subspec 'Framework' do |framework|
+  #   framework.vendored_frameworks = "TMScoreMall/Frameworks/TMScoreMallFramework.framework"
+  # end
 
 end
