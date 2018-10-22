@@ -139,8 +139,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.requires_arc = true 
 
-s.resource  = "TMScoreMall/Resource/FrameworkTestBundle.bundle"
-# s.resources = "Resources/*.png"
-s.ios.vendored_frameworks = 'TMScoreMall/Frameworks/FrameworkTest.framework'
+s.resource  = "TMScoreMall/Resource/TMPointMallImages.bundle"
+s.ios.vendored_frameworks = 'TMScoreMall/Frameworks/TMScoreMallFramework.framework'
 
 end
