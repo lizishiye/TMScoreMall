@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
                        It is a marquee view used on iOS, which implement by Objective-C.
                        DESC
 
-  s.ios.deployment_target = "7.0"
+  s.ios.deployment_target = "8.0"
   s.requires_arc = true 
 
   # s.ios.vendored_frameworks = "TMScoreMall/Frameworks/TMScoreMallFramework.framework"
