@@ -133,6 +133,10 @@ Pod::Spec.new do |s|
   # s.dependency "JSONKit", "~> 1.4"
 
   s.platform     = :ios
+
+  s.ios.deployment_target = "8.0"
+  s.requires_arc = true 
+
   s.subspec 'Framework' do |framework|
     framework.vendored_frameworks = "TMScoreMall/Frameworks/TMScoreMallFramework.framework"
   end
