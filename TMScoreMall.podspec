@@ -30,6 +30,19 @@ Pod::Spec.new do |s|
   s.resource  = "TMScoreMall/Resource/TMPointMallImages.bundle"
   s.ios.vendored_frameworks = 'TMScoreMall/Frameworks/TMScoreMall.framework'
 
+  # s.xcconfig = {
+  #   'VALID_ARCHS' => 'arm64 x86_64'
+  # }
+
+  valid_archs = ['armv7s','arm64','x86_64']
+s.xcconfig = {
+  'VALID_ARCHS' =>  valid_archs.join(' '),
+}
+s.pod_target_xcconfig = {
+    'ARCHS[sdk=iphonesimulator*]' => '$(ARCHS_STANDARD_64_BIT)'
+}
+
+
   s.dependency'TMSDK'
   s.dependency'AFNetworking'
   s.dependency'SDWebImage'
