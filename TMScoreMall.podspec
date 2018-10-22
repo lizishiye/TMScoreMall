@@ -23,12 +23,12 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/lizishiye/TMScoreMall.git", :tag => "#{s.version}" }
-  s.source_files  = "TMFramework/**/*.{h}"
+  s.source_files  = "TMScoreMall/**/*.{h}"
 
   s.requires_arc = true 
 
-  s.resource  = "TMFramework/Resource/TMPointMallImages.bundle"
-  s.ios.vendored_frameworks = 'TMFramework/TMScoreMall.framework'
+  s.resource  = "TMScoreMall/Resource/TMPointMallImages.bundle"
+  s.vendored_frameworks = 'TMScoreMall2/TMScoreMall.framework'
 
   # s.xcconfig = {
   #   'VALID_ARCHS' => 'arm64 x86_64'
