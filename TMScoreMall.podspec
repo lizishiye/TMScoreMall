@@ -30,4 +30,12 @@ Pod::Spec.new do |s|
   s.resource  = "TMScoreMall/Resource/TMPointMallImages.bundle"
   s.ios.vendored_frameworks = 'TMScoreMall/Frameworks/TMScoreMall.framework'
 
+  s.dependency'TMSDK'
+  s.dependency'AFNetworking'
+  s.dependency'SDWebImage'
+  s.dependency'Masonry'
+  s.dependency'MJRefresh'
+  s.dependency'SVProgressHUD'
+  s.dependency'SGPagingView'
+  s.dependency'MJExtension'
 end
