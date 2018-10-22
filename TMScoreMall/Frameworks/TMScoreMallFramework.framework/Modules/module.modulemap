@@ -1,6 +1,0 @@
-framework module TMScoreMallFramework {
-  umbrella header "TMScoreMallFramework.h"
-
-  export *
-  module * { export * }
-}
