@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "CustomProcess.h"
-#import "RequestHeader.h"
+#import "LZCustomProcess.h"
+#import "LZRequestHeader.h"
 #import <AFNetworking/AFNetworking.h>
 
 typedef enum : NSUInteger {
