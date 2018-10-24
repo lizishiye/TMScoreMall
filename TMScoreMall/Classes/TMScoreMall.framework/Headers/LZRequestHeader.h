@@ -7,13 +7,13 @@
 //
 
 //#define BaseUrl1 @"http://192.168.1.110"
-//#define BaseUrl  BaseUrl1 @"/g01jfsc_zk65M"
+//#define BaseUrl  BaseUrl1 @"/g01jfsc_zk65m"
 //#define QMBaseUrl(url)  BaseUrl url
 //
 //#define QMBaseUrl2(url)  BaseUrl1 url
 
 #define BaseUrl1 [NSString stringWithFormat:@"%@", [TMEngineConfig instance].domain]
-#define BaseUrl  [NSString stringWithFormat:@"%@%@", BaseUrl1, @"/g01jfsc_zk65M"]
+#define BaseUrl  [NSString stringWithFormat:@"%@%@", BaseUrl1, @"/g01jfsc_zk65m"]
 #define QMBaseUrl(url)  [NSString stringWithFormat:@"%@%@", BaseUrl, url]
 
 #define QMBaseUrl2(url)  [NSString stringWithFormat:@"%@%@", BaseUrl1, url]
