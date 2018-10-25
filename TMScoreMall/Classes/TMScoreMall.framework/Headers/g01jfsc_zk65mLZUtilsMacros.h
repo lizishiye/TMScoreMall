@@ -36,8 +36,8 @@
 #define KSafeAreaBottomHeight   (ScreenHeight == 812.0 ? 34 : 0)// 底部安全区域距离
 #define KTabBar_Height          (49+KSafeAreaBottomHeight)
 
-//#define MyFramworkXib_Bundle [NSBundle bundleWithPath: [[NSBundle mainBundle] pathForResource:@"g01jfsc_zk65mTMScoreMallXib" ofType: @"bundle"]]
-#define MyFramworkXib_Bundle [NSBundle mainBundle]
+#define MyFramworkXib_Bundle [NSBundle bundleWithPath: [[NSBundle mainBundle] pathForResource:@"g01jfsc_zk65mTMScoreMallXib" ofType: @"bundle"]]
+//#define MyFramworkXib_Bundle [NSBundle mainBundle]
 
 
 
