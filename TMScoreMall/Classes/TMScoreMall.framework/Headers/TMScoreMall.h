@@ -2,7 +2,7 @@
 //  TMScoreMall.h
 //  TMScoreMall
 //
-//  Created by Admin on 2018/10/23.
+//  Created by Admin on 2018/10/25.
 //  Copyright © 2018年 Admin. All rights reserved.
 //
 
@@ -16,5 +16,5 @@ FOUNDATION_EXPORT const unsigned char TMScoreMallVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <TMScoreMall/PublicHeader.h>
 
-#import "LZ_Header.h"
-#import "LZHomeViewController.h"
+#import "g01jfsc_zk65mLZHomeViewController.h"
+#import "g01jfsc_zk65mLZ_Header.h"
