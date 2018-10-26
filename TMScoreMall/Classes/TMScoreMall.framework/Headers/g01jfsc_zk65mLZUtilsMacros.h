@@ -33,7 +33,8 @@
 #define kStatusBarHeight        [[UIApplication sharedApplication] statusBarFrame].size.height //状态栏高度
 #define KBaseNavi_Height         44
 #define KNavi_Height            (kStatusBarHeight+KBaseNavi_Height)
-#define KSafeAreaBottomHeight   (ScreenHeight == 812.0 ? 34 : 0)// 底部安全区域距离
+//#define KSafeAreaBottomHeight   ((ScreenWidth >= 375.0 && ScreenHeight >= 812.0) ? 34 : 0)// 底部安全区域距离
+#define KSafeAreaBottomHeight   ((ScreenHeight == 812.0) ? 34 : 0)// 底部安全区域距离
 #define KTabBar_Height          (49+KSafeAreaBottomHeight)
 
 #define MyFramworkXib_Bundle [NSBundle bundleWithPath: [[NSBundle mainBundle] pathForResource:@"g01jfsc_zk65mTMScoreMallXib" ofType: @"bundle"]]

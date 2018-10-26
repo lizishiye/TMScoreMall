@@ -9,10 +9,7 @@
 #import <UIKit/UIKit.h>
 
 #define LZShowHud(String)  dispatch_async(dispatch_get_main_queue(), ^{\
-        [SVProgressHUD setBackgroundColor:LZ_ColorHex_Alpha(000000, 0.6)];\
-        [SVProgressHUD setForegroundColor:LZ_ColorHex(ffffff)];\
-        [SVProgressHUD showImage:nil status:String];\
-        [SVProgressHUD dismissWithDelay:1.0f];\
+[g01jfsc_zk65mLZCustomProcess showString:String];\
 });\
 
 #define LZHideProgress dispatch_async(dispatch_get_main_queue(), ^{[[g01jfsc_zk65mLZCustomProcess share] dismiss];});
@@ -35,5 +32,6 @@
 - (void)dismiss;
 
 
++ (void)showString:(NSString *) string;
 
 @end
