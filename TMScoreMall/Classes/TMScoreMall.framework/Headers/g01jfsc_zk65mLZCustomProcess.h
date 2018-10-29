@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#define LZShowHud(String)  dispatch_async(dispatch_get_main_queue(), ^{\
+#define g01jfsc_zk65mLZShowHud(String)  dispatch_async(dispatch_get_main_queue(), ^{\
 [g01jfsc_zk65mLZCustomProcess showString:String];\
 });\
 
