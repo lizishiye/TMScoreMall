@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TMScoreMall"
-  s.version      = "0.0.7.23"
+  s.version      = "0.0.7.24"
   s.summary      = "This is a summary"
   s.homepage     = "https://github.com/lizishiye/TMScoreMall.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -40,6 +40,7 @@ s.pod_target_xcconfig = {
 
 
   s.dependency'TMSDK'
+  s.dependency'TMUserCenter'
   s.dependency'AFNetworking'
   s.dependency'SDWebImage'
   s.dependency'Masonry'
