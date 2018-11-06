@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TMScoreMall"
-  spec.version      = "0.0.7.38"
+  spec.version      = "0.0.7.39"
   spec.summary      = "This is a summary"
   spec.description  = <<-DESC
                       TM积分商城描述：这里的描述，必须比s.summary的长度要长。
@@ -26,6 +26,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "lizishiye" => "1063357883@qq.com" }
   spec.platform     = :ios
   spec.platform     = :ios, "9.0"
+  spec.ios.deployment_target = '9.0'
 
   spec.source       = { :git => "https://github.com/lizishiye/TMScoreMall.git", :tag => "#{spec.version}" }
   spec.source_files  = "TMScoreMall/**/*.{h}"
