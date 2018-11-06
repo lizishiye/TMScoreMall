@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TMScoreMall"
-  spec.version      = "0.0.7.33"
+  spec.version      = "0.0.7.34"
   spec.summary      = "This is a summary"
   spec.homepage     = "https://github.com/lizishiye/TMScoreMall.git"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
@@ -40,7 +40,7 @@ Pod::Spec.new do |spec|
 #     'ARCHS[sdk=iphonesimulator*]' => '$(ARCHS_STANDARD_64_BIT)'
 # }
   spec.dependency'TMSDK'
-  spec.dependency'TMUserCenter'
+  # spec.dependency'TMUserCenter'
   spec.dependency'AFNetworking'
   spec.dependency'SDWebImage'
   spec.dependency'Masonry'
