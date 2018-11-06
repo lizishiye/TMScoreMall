@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TMScoreMall"
-  spec.version      = "0.0.7.40"
+  spec.version      = "0.0.7.41"
   spec.summary      = "This is a summary"
   spec.description  = <<-DESC
                       TM积分商城描述：这里的描述，必须比s.summary的长度要长。
@@ -36,13 +36,13 @@ Pod::Spec.new do |spec|
   spec.resources  = "TMScoreMall/Resource/*.bundle"
   spec.ios.vendored_frameworks = 'TMScoreMall/**/*.framework'
 
-# valid_archs = ['armv7s','arm64','x86_64']
-# spec.xcconfig = {
-#   'VALID_ARCHS' =>  valid_archs.join(' '),
-# }
-# spec.pod_target_xcconfig = {
-#     'ARCHS[sdk=iphonesimulator*]' => '$(ARCHS_STANDARD_64_BIT)'
-# }
+valid_archs = ['armv7s','arm64','x86_64']
+spec.xcconfig = {
+  'VALID_ARCHS' =>  valid_archs.join(' '),
+}
+spec.pod_target_xcconfig = {
+    'ARCHS[sdk=iphonesimulator*]' => '$(ARCHS_STANDARD_64_BIT)'
+}
   spec.dependency'TMSDK'
   spec.dependency'TMUserCenter'
   spec.dependency'AFNetworking'
