@@ -1,0 +1,18 @@
+//
+//  lZ_TMScoreMallPrefixHeader.pch
+//  LZTest
+//
+//  Created by Admin on 2018/10/18.
+//  Copyright © 2018年 Admin. All rights reserved.
+//
+
+#ifndef lZ_TMScoreMallPrefixHeader_pch
+#define lZ_TMScoreMallPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <TMSDK/TMSDK.h>
+#import "g01jfsc_zk65mLZ_Header.h"
+
+#endif /* lZ_TMScoreMallPrefixHeader_pch */

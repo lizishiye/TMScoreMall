@@ -1,0 +1,39 @@
+
+platform :ios, '9.0'
+use_frameworks!
+
+target 'TMScoreMall' do
+
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'Masonry'
+pod 'MJRefresh'
+pod 'SVProgressHUD'
+
+#添加
+pod 'SGPagingView'
+pod 'MJExtension'
+pod 'SDCycleScrollView'
+
+pod 'UMengAnalytics-NO-IDFA'
+
+#主框架
+pod 'TMSDK', '~> 0.0.2-beta.3'
+##导航框架
+#pod 'TMNavigation', '~> 0.0.2-beta.3'
+#个人中心
+pod 'TMUserCenter'
+##分享组件
+#pod 'TMShare', '~> 0.0.2-beta.1'
+
+#git add -A
+#git commit -m "first commit for version 0.0.1"
+#git push origin master
+#pod lib lint TMScoreMall.podspec --verbose
+
+#pod lib lint TMScoreMall.podspec --verbose --use-libraries
+
+#https://github.com/lizishiye/Specs.git
+
+#pod trunk push TMScoreMall.podspec --verbose --use-libraries
+end
