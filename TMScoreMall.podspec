@@ -6,7 +6,7 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-Pod::Spec.new do |s|
+Pod::Spec.new do |spec|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -15,40 +15,39 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "TMScoreMall"
-  s.version      = "0.0.7.30"
-  s.summary      = "This is a summary"
-  s.homepage     = "https://github.com/lizishiye/TMScoreMall.git"
-  s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author             = { "lizishiye" => "1063357883@qq.com" }
-  s.platform     = :ios
-  s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://github.com/lizishiye/TMScoreMall.git", :tag => "#{s.version}" }
-  s.source_files  = "TMScoreMall/**/*.{h}"
+  spec.name         = "TMScoreMall"
+  spec.version      = "0.0.7.31"
+  spec.summary      = "This is a summary"
+  spec.homepage     = "https://github.com/lizishiye/TMScoreMall.git"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  spec.author             = { "lizishiye" => "1063357883@qq.com" }
+  spec.platform     = :ios
+  spec.platform     = :ios, "9.0"
 
-  s.requires_arc = true 
+  spec.source       = { :git => "https://github.com/lizishiye/TMScoreMall.git", :tag => "#{spec.version}" }
+  spec.source_files  = "TMScoreMall/**/*.{h}"
 
-  s.resources  = "TMScoreMall/Resource/*.bundle"
-  s.ios.vendored_frameworks = 'TMScoreMall/**/*.framework'
+  spec.requires_arc = true 
 
-  valid_archs = ['armv7s','arm64','x86_64']
-s.xcconfig = {
+  spec.resources  = "TMScoreMall/Resource/*.bundle"
+  spec.ios.vendored_frameworks = 'TMScoreMall/**/*.framework'
+
+valid_archs = ['armv7s','arm64','x86_64']
+spec.xcconfig = {
   'VALID_ARCHS' =>  valid_archs.join(' '),
 }
-s.pod_target_xcconfig = {
+spec.pod_target_xcconfig = {
     'ARCHS[sdk=iphonesimulator*]' => '$(ARCHS_STANDARD_64_BIT)'
 }
-
-
-  s.dependency'TMSDK'
-  s.dependency'TMUserCenter'
-  s.dependency'AFNetworking'
-  s.dependency'SDWebImage'
-  s.dependency'Masonry'
-  s.dependency'MJRefresh'
-  s.dependency'SVProgressHUD'
-  s.dependency'SGPagingView'
-  s.dependency'SDCycleScrollView'
-  s.dependency'MJExtension'
+  spec.dependency'TMSDK'
+  spec.dependency'TMUserCenter'
+  spec.dependency'AFNetworking'
+  spec.dependency'SDWebImage'
+  spec.dependency'Masonry'
+  spec.dependency'MJRefresh'
+  spec.dependency'SVProgressHUD'
+  spec.dependency'SGPagingView'
+  spec.dependency'SDCycleScrollView'
+  spec.dependency'MJExtension'
 
 end
