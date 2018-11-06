@@ -2,12 +2,13 @@
 #  Be sure to run `pod spec lint TMScoreMall.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
-#  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
+#  To learn more about Podspec attributes see https://docs.cocoapods.org/specification.html
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-Pod::Spec.new do |s|
- # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+Pod::Spec.new do |spec|
+
+  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  These will help people to find your library, and whilst it
   #  can feel like a chore to fill in it's definitely to your advantage. The
@@ -15,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TMScoreMall"
-  s.version      = "0.0.7.28"
+  s.version      = "0.0.7.29"
   s.summary      = "This is a summary"
   s.homepage     = "https://github.com/lizishiye/TMScoreMall.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -48,4 +49,5 @@ s.pod_target_xcconfig = {
   s.dependency'SGPagingView'
   s.dependency'SDCycleScrollView'
   s.dependency'MJExtension'
+
 end
