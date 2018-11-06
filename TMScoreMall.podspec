@@ -16,8 +16,11 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TMScoreMall"
-  spec.version      = "0.0.7.36"
+  spec.version      = "0.0.7.37"
   spec.summary      = "This is a summary"
+  spec.description  = <<-DESC 
+                    TM积分商城描述：这里的描述，必须比s.summary的长度要长。
+                   DESC //这里的描述，必须比s.summary的长度要长。
   spec.homepage     = "https://github.com/lizishiye/TMScoreMall.git"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "lizishiye" => "1063357883@qq.com" }
