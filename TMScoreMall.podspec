@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TMScoreMall"
-  spec.version      = "0.0.7.39"
+  spec.version      = "0.0.7.40"
   spec.summary      = "This is a summary"
   spec.description  = <<-DESC
                       TM积分商城描述：这里的描述，必须比s.summary的长度要长。
