@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TMScoreMall"
-  spec.version      = "0.0.7.31"
+  spec.version      = "0.0.7.32"
   spec.summary      = "This is a summary"
   spec.homepage     = "https://github.com/lizishiye/TMScoreMall.git"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
