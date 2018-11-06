@@ -6,7 +6,7 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-Pod::Spec.new do |spec|
+Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   s.name         = "TMScoreMall"
-  s.version      = "0.0.7.29"
+  s.version      = "0.0.7.30"
   s.summary      = "This is a summary"
   s.homepage     = "https://github.com/lizishiye/TMScoreMall.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -41,6 +41,7 @@ s.pod_target_xcconfig = {
 
 
   s.dependency'TMSDK'
+  s.dependency'TMUserCenter'
   s.dependency'AFNetworking'
   s.dependency'SDWebImage'
   s.dependency'Masonry'
